@@ -6,6 +6,6 @@ It was inspired by the lecture notes Probability and Computing by Ryan O'Donnell
 
 https://www.cs.cmu.edu/~odonnell/papers/probability-and-computing-lecture-notes.pdf
 
-As the message is short, the naive letter frequency approach does not help to crack the cipher. We proceed by definining a quality score for each possible key (permutation)
+As the plain text is short, the naive frequency analysis approach does not help to crack the cipher. We proceed by definining a quality score for each possible key (permutation)
 and performing a random walk in the space of all permutations in order to select from a stationary distribution tailored to favorise those keys that decipher a message
 into a string whose bigram frequencies are similar to that of the English language.
